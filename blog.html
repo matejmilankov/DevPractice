@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <title>Blog | DevPratice</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="main-navigation">
+                <img src="images/logo.svg" alt="logo">
+
+                <nav>
+                    <a href="#">Work</a>
+                    <a href="#">Services</a>
+                    <a href="#">Culture</a>
+                    <a class="active" href="blog.html">Blog</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+
+                <a href="#" class="secondary-cta-button">
+                    <span>Start a project</span>
+                    <div class="arrow-wrapper">
+                        <img src="images/arrow.svg" alt="arrow">
+                    </div>
+                </a>
+
+                <div class="mobile-ham">
+                    <div class="line first-line"></div>
+                    <div class="line second-line"></div>
+                </div>
+
+                <div class="mobile-navigation">
+                    <div></div>
+                    <div class="mobile-links">
+                        <div class="hide"><a href="#">WORK</a></div>
+                        <div class="hide"><a href="#">SERVICES</a></div>
+                        <div class="hide"><a href="#">CULTURE</a></div>
+                        <div class="active hide"><a href="blog.html">BLOG</a></div>
+                        <div class="hide"><a href="contact.html">CONTACT US</a></div>
+                    </div>
+                    <div class="mobile-adds">
+                        <p>INSTAGRAM</p>
+                        <p>COOKIE POLICY</p>
+                        <p>PRIVACY POLICY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="container">
+
+                <svg width="1361" height="263" viewBox="0 0 1361 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-2.14577e-06 256.68V5.76001H88.2C113.16 5.76001 132.72 11.4 146.88 22.68C161.04 33.72 168.12 49.2 168.12 69.12C168.12 80.64 165.72 90.96 160.92 100.08C156.12 108.96 149.4 115.92 140.76 120.96C154.68 126.24 165 134.16 171.72 144.72C178.44 155.04 181.8 167.88 181.8 183.24C181.8 206.28 174.48 224.28 159.84 237.24C145.44 250.2 125.4 256.68 99.72 256.68H-2.14577e-06ZM46.44 213.84H96.12C122.28 213.84 135.36 202.92 135.36 181.08C135.36 170.52 132.12 162.36 125.64 156.6C119.4 150.84 110.4 147.96 98.64 147.96H46.44V213.84ZM46.44 106.56H90.36C99.96 106.56 107.52 103.92 113.04 98.64C118.8 93.12 121.68 85.68 121.68 76.32C121.68 67.44 118.8 60.6 113.04 55.8C107.28 51 99 48.6 88.2 48.6H46.44V106.56ZM202.078 256.68V5.76001H248.518V214.92H355.438V256.68H202.078ZM467.207 262.44C443.447 262.44 422.447 257.04 404.207 246.24C386.207 235.2 372.167 219.84 362.087 200.16C352.007 180.48 346.967 157.56 346.967 131.4C346.967 105 352.007 81.96 362.087 62.28C372.167 42.6 386.207 27.36 404.207 16.56C422.447 5.52 443.447 1.90735e-06 467.207 1.90735e-06C491.207 1.90735e-06 512.207 5.52 530.207 16.56C548.447 27.36 562.607 42.6 572.687 62.28C582.767 81.96 587.807 105 587.807 131.4C587.807 157.56 582.647 180.48 572.327 200.16C562.247 219.84 548.087 235.2 529.847 246.24C511.847 257.04 490.967 262.44 467.207 262.44ZM466.847 217.8C482.207 217.8 495.287 214.32 506.087 207.36C517.127 200.16 525.647 190.08 531.647 177.12C537.647 164.16 540.647 148.92 540.647 131.4C540.647 113.64 537.647 98.28 531.647 85.32C525.647 72.36 517.127 62.4 506.087 55.44C495.287 48.24 482.207 44.64 466.847 44.64C452.207 44.64 439.247 48.12 427.967 55.08C416.927 62.04 408.407 72 402.407 84.96C396.647 97.92 393.767 113.4 393.767 131.4C393.767 149.16 396.647 164.52 402.407 177.48C408.407 190.44 416.927 200.4 427.967 207.36C439.247 214.32 452.207 217.8 466.847 217.8ZM715.272 262.44C692.232 262.44 671.952 256.92 654.432 245.88C636.912 234.84 623.112 219.48 613.032 199.8C602.952 180.12 597.912 157.2 597.912 131.04C597.912 104.88 602.952 82.08 613.032 62.64C623.112 42.96 637.152 27.6 655.152 16.56C673.392 5.52 694.392 1.90735e-06 718.152 1.90735e-06C744.792 1.90735e-06 767.712 6.72001 786.912 20.16C806.352 33.36 820.272 51.6 828.672 74.88L784.752 91.08C779.472 76.44 771.072 65.04 759.552 56.88C748.272 48.72 734.472 44.64 718.152 44.64C703.272 44.64 690.192 48.12 678.912 55.08C667.872 62.04 659.352 72 653.352 84.96C647.592 97.68 644.712 113.04 644.712 131.04C644.712 149.04 647.592 164.52 653.352 177.48C659.352 190.44 667.872 200.4 678.912 207.36C690.192 214.32 703.272 217.8 718.152 217.8C725.832 217.8 733.752 216.72 741.912 214.56C750.072 212.4 757.512 208.68 764.232 203.4C771.192 197.88 776.712 190.32 780.792 180.72C785.112 171.12 787.272 158.88 787.272 144V129.6L797.712 162H725.712V120.24H828.672V256.68H787.632L781.152 216L789.072 222.12C784.752 231 778.872 238.44 771.432 244.44C763.992 250.44 755.472 254.88 745.872 257.76C736.512 260.88 726.312 262.44 715.272 262.44Z" fill="white"/>
+                    <path d="M915.834 106.2L961.194 5.76001H990.714L967.674 106.2H915.834ZM999.906 256.68V222.84C1007.59 217.08 1016.59 210.48 1026.91 203.04C1037.23 195.6 1047.67 187.44 1058.23 178.56C1069.03 169.68 1078.99 160.2 1088.11 150.12C1097.23 140.04 1104.55 129.48 1110.07 118.44C1115.83 107.4 1118.71 96.12 1118.71 84.6C1118.71 73.8 1115.83 64.8 1110.07 57.6C1104.31 50.16 1095.31 46.44 1083.07 46.44C1072.99 46.44 1064.95 48.96 1058.95 54C1053.19 59.04 1048.99 65.52 1046.35 73.44C1043.71 81.12 1042.15 89.16 1041.67 97.56L997.746 94.32C997.746 83.04 999.546 72 1003.15 61.2C1006.99 50.4 1012.51 40.68 1019.71 32.04C1027.15 23.16 1036.27 16.08 1047.07 10.8C1057.87 5.52001 1070.35 2.88001 1084.51 2.88001C1099.87 2.88001 1113.43 6.24001 1125.19 12.96C1137.19 19.68 1146.55 29.04 1153.27 41.04C1159.99 53.04 1163.35 67.08 1163.35 83.16C1163.35 95.64 1161.19 107.76 1156.87 119.52C1152.79 131.28 1146.91 142.56 1139.23 153.36C1131.55 164.16 1122.43 174.36 1111.87 183.96C1101.31 193.56 1089.55 202.56 1076.59 210.96C1063.63 219.12 1049.95 226.56 1035.55 233.28L1047.43 214.92H1173.07V256.68H999.906ZM1268.31 260.28C1252.47 260.28 1237.95 256.92 1224.75 250.2C1211.79 243.48 1201.11 234.36 1192.71 222.84C1184.55 211.32 1179.27 198.36 1176.87 183.96L1220.79 176.4C1221.75 183.12 1224.03 189.6 1227.63 195.84C1231.23 202.08 1236.39 207.24 1243.11 211.32C1249.83 215.4 1257.99 217.44 1267.59 217.44C1278.15 217.44 1286.67 215.04 1293.15 210.24C1299.87 205.44 1304.79 199.32 1307.91 191.88C1311.27 184.44 1312.95 176.76 1312.95 168.84C1312.95 161.16 1311.39 154.08 1308.27 147.6C1305.39 141.12 1300.59 135.84 1293.87 131.76C1287.39 127.68 1278.99 125.64 1268.67 125.64C1258.59 125.64 1250.07 127.8 1243.11 132.12C1236.15 136.44 1230.63 141.96 1226.55 148.68L1184.43 137.88L1208.91 5.76001H1349.31V47.52H1225.47L1249.23 28.44L1233.39 112.68L1218.99 108.72C1228.35 98.4 1237.83 91.68 1247.43 88.56C1257.27 85.2 1266.39 83.52 1274.79 83.52C1291.83 83.52 1306.71 87.48 1319.43 95.4C1332.39 103.32 1342.47 113.76 1349.67 126.72C1356.87 139.68 1360.47 153.72 1360.47 168.84C1360.47 180.84 1358.19 192.36 1353.63 203.4C1349.07 214.2 1342.71 223.92 1334.55 232.56C1326.39 240.96 1316.67 247.68 1305.39 252.72C1294.11 257.76 1281.75 260.28 1268.31 260.28Z" fill="#1F8053"/>
+                </svg>
+
+
+
+                <div class="hero-grid">
+
+                    <div class="hero-item">
+                        <img src="images/t3.webp" alt="blog-3">
+                        <div class="hero-wrap">
+                            
+                            <div class="mark">startup</div>
+                            <h2 class="is--bigger">How Emerging Startups Are Redefining Innovation in the Digital Era</h2>
+                        </div>
+                    </div>
+
+                    <div class="hero-item">
+                        <img src="images/t1.png" alt="blog-1">
+                        <div class="hero-wrap">
+                            
+                            <div class="mark">tech</div>
+                            <h2>The Art and Science of Crafting Engaging Web Experiences</h2>
+                        </div>
+                    </div>
+
+                    <div class="hero-item">
+                        <img src="images/t2.webp" alt="blog-2">
+                        <div class="hero-wrap">
+                            
+                            <div class="mark">crypto</div>
+                            <h2>Navigating the New Frontier: Trends and Challenges in the Crypto Space</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="writers">
+        <img class="abstract-top" src="images/3d-cta-right.webp" alt="">
+        <img src="images/3d-cta-top.webp" alt="" class="abstract-bottom">
+        <div class="container">
+
+            <div class="portfolio">
+                <div class="portfolio-header">
+                    <h2 class="section-heading fade-in-left">Staff writers</h2>
+                    <a href="#" class="cta-button fade-in-right responsive-move">
+                        <div class="black-btn-bg">
+                            <span>View All</span>
+                            <div class="arrow-wrapper">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="staff-wrapper">
+                <div class="staff-item">
+                    <img src="images/author1.jpg" alt="">
+                    <h3>Sofia Mendes</h3>
+                    <p>Senior Writer</p>
+                </div>
+                <div class="staff-item">
+                    <img src="images/author.png" alt="">
+                    <h3>Luka Ristić</h3>
+                    <p>Journalist</p>
+                </div>
+                <div class="staff-item">
+                    <img src="images/author2.jpg" alt="">
+                    <h3>Ana Petrović</h3>
+                    <p>Publisher</p>
+                </div>
+                <div class="staff-item">
+                    <img src="images/author2.jpg" alt="">
+                    <h3>Hawkings Alex</h3>
+                    <p>Content Writer</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="all-blogs">
+        <div class="glow-circle"></div>
+        <div class="glow-circle bottom-right"></div>
+        <div class="container">
+
+            <div class="portfolio">
+                <div class="portfolio-header">
+                    <h2 class="section-heading fade-in-left">Popular Blogs</h2>
+                </div>
+            </div>
+
+            <div class="all-blogs-grid">
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/blog_1.webp" alt="">
+                    <div class="item-info">
+                        <h3>How to build a scalable design system</h3>
+                        <div class="date-read-time">
+                            <div class="date">Apr 10th, 2025</div>
+                            <div class="read-time">2min</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/blog_2.webp" alt="">
+                    <div class="item-info">
+                        <h3>The art of balancing creativity and UX</h3>
+                        <div class="date-read-time">
+                            <div class="date">Mar 12th, 2025</div>
+                            <div class="read-time">3min</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/blog_3.webp" alt="">
+                    <div class="item-info">
+                        <h3>The science behind cta buttons</h3>
+                        <div class="date-read-time">
+                            <div class="date">July 22th, 2025</div>
+                            <div class="read-time">5min</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/t1.png" alt="">
+                    <div class="item-info">
+                        <h3>Must have feature for portfolio</h3>
+                        <div class="date-read-time">
+                            <div class="date">Avg 5th, 2025</div>
+                            <div class="read-time">4min</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/t2.webp" alt="">
+                    <div class="item-info">
+                        <h3>Create seamless user journey on website</h3>
+                        <div class="date-read-time">
+                            <div class="date">Oct 27th, 2025</div>
+                            <div class="read-time">2min</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-blogs-item fade-in-up">
+                    <img src="images/t3.webp" alt="">
+                    <div class="item-info">
+                        <h3>Why mobile-frst design is no longer optional</h3>
+                        <div class="date-read-time">
+                            <div class="date">May 17th, 2025</div>
+                            <div class="read-time">7min</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+
+        <div class="sub-video">
+            <video autoplay muted loop playsinline>
+                    <source src="videos/videos/video_1.webm">
+            </video>
+        </div>
+
+        <div class="sub-wrapper">
+            <div class="container">
+                <div class="sub-content">
+                    <h2>Subscribe to our newsletter and get the latest UI/UX tips, design trends, and case studies delivered straight to your inbox.</h2>
+                    <form action="POST">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter your email...">
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <video autoplay muted loop playsinline>
+            <source src="videos/videos/footer-video.webm">
+        </video>
+
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-menu-grid">
+                    <div class="footer-menu-heading">About Us</div>
+                    <div class="footer-menu-heading">Links</div>
+                    <div class="footer-menu-heading">Social Media</div>
+                    <div class="footer-menu-heading">Legal</div>
+
+                    <div class="footer-menu-content">
+                        <a href="mailto:hello@devpractice.com">
+                            <span>Email <img src="images/external_arrow.svg"></span>
+                            hello@devpractice.com
+                        </a>
+                        <a href="tel:+3812111432">
+                            <span>Phone <img src="images/external_arrow.svg"></span>
+                            +3812111432
+                        </a>
+                        <a target="_blank" href="https://maps.app.goo.gl/8CwKKw82kKbo3DoU8">
+                            <span>Address <img src="images/external_arrow.svg"></span>
+                            1843 Broadway, New York, United States
+                        </a>
+                    </div>
+                    <div class="footer-menu-content">
+                        <a href="#">Work</a>
+                        <a href="#">Services</a>
+                        <a href="#">Culture</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div class="footer-menu-content">
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Linkedin</a>
+                        <a href="#" target="_blank">Behance</a>
+                        <a href="#" target="_blank">Dribble</a>
+                    </div>
+                    <div class="footer-menu-content">
+                        <a href="">Terms of Use</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="footer-copyright-wrapper">
+                    <img src="images/logo.svg" alt="">
+                    <p>&copy 2024 - 2026 All rights reserved. Company Name Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
